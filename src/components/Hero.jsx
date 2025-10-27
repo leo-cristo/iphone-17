@@ -3,7 +3,7 @@ function Hero() {
     <section className="relative h-screen overflow-hidden bg-blend-color ">
       <div className="absolute top-19 bottom-0 right-0 left-0  z-0">
         <img
-          src="../public/img/hero.jpg"
+          src="/img/hero.jpg"
           className=" w-full h-full object-contain  opacity-90"
           alt="foto-iphone"
         />

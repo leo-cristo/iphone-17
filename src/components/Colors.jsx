@@ -5,19 +5,19 @@ function Colors() {
     {
       id: "blue",
       name: "Titânio Azul",
-      image: "../img/iphone-blue.jpg",
+      image: "/img/iphone-blue.jpg",
       colorClass: "bg-blue-500",
     },
     {
       id: "silver",
       name: "Titânio Natural",
-      image: "../img/iphone-silver.jpg",
+      image: "/img/iphone-silver.jpg",
       colorClass: "bg-orange-500",
     },
     {
       id: "orange",
       name: "Titânio Laraja",
-      image: "../img/iphone-orange.jpg",
+      image: "/img/iphone-orange.jpg",
       colorClass: "bg-gray-300",
     },
   ];
