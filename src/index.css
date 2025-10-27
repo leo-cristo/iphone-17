@@ -1,0 +1,28 @@
+@import "tailwindcss";
+
+@layer base {
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    body {
+        color: #fff;
+        background-color: #000;
+        font-family: "Inter", sans-serif;
+    }
+    
+    html {
+        scroll-behavior: smooth;
+    }
+}
+
+/* Aqui você pode adicionar novas classes utilitárias */
+@layer utilities {
+    .text-gradient {
+        background: linear-gradient(135deg, rgb(37 99 235) 0%, rgb(249 115 22) 100%);
+        -webkit-background-clip: text ; /*faz o fundo ser "recortado" dentro do formato das letras*/
+        -webkit-text-fill-color: transparent; /*torna o texto transparente.*/
+        background-clip: text; /*nem sempre é necessário, mas Garante compatibilidade*/
+    }
+}
